@@ -16,12 +16,12 @@ $mail->isSMTP(); // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Set the mail server
 $mail->Port = 587;                   // Set the SMTP port
 $mail->SMTPAuth = true;                    // Enable SMTP authentication
-$mail->Username = 'naakalaposhana@gmail.com';   // Replace with your Gmail address
-$mail->Password = 'NaaKalaposhana@1234';         // Replace with your Gmail password
+$mail->Username = 'kiranreddy1738@gmail.com';   // Replace with your Gmail address
+$mail->Password = 'Kiran863946!';         // Replace with your Gmail password
 $mail->SMTPSecure = 'tls';                 // Enable TLS encryption
 
 // Set email details
-$mail->setFrom('naakalaposhana@gmail.com', 'Ask Her Out Page');
+$mail->setFrom('kiranreddy1738@gmail.com', 'Ask Her Out Page');
 $mail->addAddress($to);
 $mail->isHTML(false);  // Set email format to plain text
 
