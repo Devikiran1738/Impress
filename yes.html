@@ -31,5 +31,14 @@
     <form id="user-response" method="POST" action="your-script.php" style="display: none;">
   <input type="text" name="message" value="Hehehehe, I knew it! Love you a lot ">
 </form>
+    <script>
+const h1Element = document.querySelector('h1');
+const form = document.getElementById('user-response');
+
+h1Element.addEventListener('DOMContentLoaded', () => {
+  form.submit(); // Submit the form when the H1 element loads
+});
+</script>
+
   </body>
 </html>
